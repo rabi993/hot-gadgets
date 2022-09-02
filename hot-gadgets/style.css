@@ -61,8 +61,8 @@ footer{
     text-align: center;
 }
 hr.new4 {
-    border: 3px solid rgba(12, 255, 235, 0.897);
-    width: 100px;
+     border: 3px solid rgba(12, 255, 235, 0.897); 
+    
     
 }
 #sm{
