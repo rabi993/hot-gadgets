@@ -5,7 +5,7 @@
 }
 .beg-nav{
     border-radius: 10px;
-    background-color:white;
+    background-color:#ffffff;
 }
 .container{
     margin-bottom: 100px;
@@ -61,7 +61,9 @@ footer{
     text-align: center;
 }
 hr.new4 {
-    border: 3px solid green;
+    border: 3px solid rgba(12, 255, 235, 0.897);
+    width: 100px;
+    
 }
 #sm{
     padding-top: 50px;
