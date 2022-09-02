@@ -1,0 +1,54 @@
+.beg-nav{
+    border-radius: 10px;
+    background-color:white;
+}
+.container{
+    margin-bottom: 50px;
+    
+}
+
+
+.see-all{
+    float: right;
+    text-decoration: none;
+}
+
+
+.buy-now{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+
+}
+.card {
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+}
+.categories{
+    padding: 60px 0px;
+    text-align: center;
+
+}
+.cat{
+    border: none;
+    
+    box-shadow: 15px 15px 20px rgb(146, 138, 138);
+    height:220px ;
+    width: 200px;
+    padding: 50px;
+}
+#bag{
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+#perfume{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#shoe{
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
