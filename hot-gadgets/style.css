@@ -1,9 +1,14 @@
+.top{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    
+}
 .beg-nav{
     border-radius: 10px;
     background-color:white;
 }
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
     
 }
 
@@ -36,8 +41,8 @@
     border: none;
     
     box-shadow: 15px 15px 20px rgb(146, 138, 138);
-    height:220px ;
-    width: 200px;
+    height:250px ;
+    width: 230px;
     padding: 50px;
 }
 #bag{
@@ -52,3 +57,25 @@
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+footer{
+    text-align: center;
+}
+hr.new4 {
+    border: 3px solid green;
+}
+#sm{
+    padding-top: 50px;
+}
+#lp{
+    padding-top: 50px;
+}
+a:link {
+    text-decoration: none;
+    
+  }
+  .see{
+    color: orange;
+  }
+  #text1{
+    color: lightgray;
+  }

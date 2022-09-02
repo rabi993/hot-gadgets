@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container beg-nav">
+    <div class="top">
+      <div class="container beg-nav">
         <nav class="navbar navbar-expand-lg bg-light  ">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
@@ -19,13 +20,16 @@
               <div class="collapse navbar-collapse  flex-row-reverse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  <a class="nav-link" href="#">Features</a>
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#">Product</a>
+                  <a class="nav-link" href="#">about us</a>
+                  <a class="nav-link" href="#">contact</a>
+                  <a class="nav-link" href="#">fjhfj</a>
                   <a class="nav-link disabled">Disabled</a>
                 </div>
               </div>
             </div>
           </nav>
+    </div>
     </div>
     <div class="carousel-1">
         <div class="container">
@@ -35,7 +39,7 @@
                   <div class="row align-items-center">
                     <div class="col-md-5">
                       <h1>Mega tv for sports</h1>
-                      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus rem nihil ullam iusto voluptatem,</p>
+                      <p id="text1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus rem nihil ullam iusto voluptatem,</p>
                       
                       <button class="buy-now">BUY NOW→</button>
                     </div>
@@ -96,11 +100,11 @@
 
     <div class="container smartphones" id="smartphones">
         <div class="row justify-content-between ">
-           <div class="col-md-2"> <h3>smartphones</h3></div>
-           <div  class="col-md-1 "><a href="">see all</a></div>
+           <div class="col-md-2"> <h2>smartphones</h2></div>
+           <div  class="col-md-1 see"><a href=""><h4 class="see">see all</h4></a></div>
         </div>
         
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div id="sm" class="row row-cols-1 row-cols-md-3 g-4 ">
           <div class="col">
             <div class="card h-100">
               <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
@@ -142,10 +146,10 @@
       <div class="container laptop" id="laptop">
         <div class="row justify-content-between ">
            <div class="col-md-2"> <h3>Laptop</h3></div>
-           <div  class="col-md-1 "><a href="">see all</a></div>
+           <div  class="col-md-1 "><a href=""><h4 class="see">See all</h4></a></div>
         </div>
         
-        <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div id="lp" class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100">
               <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
@@ -184,22 +188,23 @@
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container   " >
         <div>
-            <h3>Categories</h3>
+            <h2 style="text-align:center ;">Categories</h2>
+            <hr class="new4">
 
         </div>
         <div class="row align-items-center justify-content-between categories">
-            <div id="bag" class="col-md-3 cat ">
+            <div id="bag" class="col-md-3 cat shadow-lg p-3 mb-5 bg-body">
               <img src="images/Categories/bag.png" alt="">
               <h5>bag</h5>
             </div>
-            <div class="col-md-3 ">
-                <div id="perfume" class="cat">
+            <div class="col-md-3 d-grid gap-3  ">
+                <div id="perfume" class="cat shadow-lg p-3 mb-5 bg-body">
                     <img src="images/Categories/perfume.png" alt="">
                     <h5>perfume</h5>
                 </div>
-                <div id="shoe" class="cat">
+                <div id="shoe" class="cat shadow-lg p-3 mb-5 bg-body">
                     <img src="images/Categories/shoe.png" alt="">
                     <h5>shoe</h5>
                 </div>
@@ -213,7 +218,9 @@
 
     
 
-
+      <footer>
+        <small>©2022 Lorem ipsum dolor sit amet.</small>
+       </footer>
 
 
 
